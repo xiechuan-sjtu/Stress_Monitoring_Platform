@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>风帆应力监测平台</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-container">
+    <!-- 左侧侧边栏 -->
+    <aside class="sidebar">
+      <div class="brand">
+        <img src="COSCO_logo.jpg" alt="COSCO Logo" class="logo" />
+        <div class="title-group">
+          <div class="subtitle">Stress Monitoring Platform</div>
+          <h1 class="main-title">风帆应力监测平台</h1>
+        </div>
+      </div>
+
+      <nav class="nav-buttons">
+        <button class="nav-button active">应力传感器</button>
+        <button class="nav-button">实时应力</button>
+        <button class="nav-button">应力趋势</button>
+        <button class="nav-button">推力反演</button>
+      </nav>
+    </aside>
+
+    <!-- 右侧主区域 -->
+    <main class="main-content">
+      <div id="view-container" class="view-container"></div>
+    </main>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
+
+
